@@ -1,46 +1,79 @@
-# Highly Available AWS Web Application Platform
+# AWS Highly Available Web Application Infrastructure
 
 
-## Overview
+## Project Overview
 
-Designed and deployed a production-style AWS infrastructure demonstrating high availability, security, monitoring, and scalability.
+Designed a production-style AWS cloud infrastructure architecture focused on availability, scalability, security, and monitoring.
+
+The project demonstrates Cloud Infrastructure and Site Reliability Engineering practices.
 
 
-## Architecture
+## Business Scenario
+
+A company requires a reliable web application platform that can handle increased traffic while maintaining availability during infrastructure failures.
+
+
+## Architecture Components
 
 The solution includes:
 
-- AWS VPC
-- Public and private subnets
+- Amazon VPC
+- Public and Private Subnets
 - Application Load Balancer
-- EC2 Auto Scaling
-- Amazon RDS
+- EC2 Instances
+- Auto Scaling Group
+- Amazon RDS Database
+- IAM Roles
 - Security Groups
 - CloudWatch Monitoring
 
 
-## Objectives
+## High Availability Design
 
-- Build a secure AWS network architecture
-- Implement high availability
-- Deploy scalable compute resources
-- Monitor infrastructure health
+The architecture follows AWS reliability principles:
+
+- Multi Availability Zone deployment
+- Load-balanced application servers
+- Private database layer
+- Automated monitoring
 
 
-## AWS Services Used
+## Security Implementation
 
-- Amazon VPC
-- Amazon EC2
-- Application Load Balancer
-- Amazon RDS
-- IAM
-- CloudWatch
+Security controls include:
+
+- Network segmentation
+- Security Groups
+- IAM least privilege access
+- Private database access
+- Controlled inbound traffic
+
+
+## Monitoring and Observability
+
+Monitoring approach:
+
+- CloudWatch metrics
+- Application health checks
+- Infrastructure alerts
 
 
 ## SRE Practices Demonstrated
 
-- Availability
-- Monitoring
-- Incident prevention
+- Reliability engineering
+- Fault tolerance
+- Monitoring and alerting
 - Infrastructure documentation
-- Security best practices
+- Incident prevention
+
+
+## AWS Services Used
+
+| AWS Service | Purpose |
+|---|---|
+| VPC | Network isolation |
+| EC2 | Application servers |
+| ALB | Traffic distribution |
+| RDS | Database |
+| IAM | Access management |
+| CloudWatch | Monitoring |
