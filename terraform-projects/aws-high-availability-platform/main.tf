@@ -24,14 +24,14 @@ region = "ca-central-1"
 
 resource "aws_s3_bucket" "portfolio_bucket" {
 
-bucket = "ashiyana-cloud-portfolio-2026"
+bucket = "ashiyana-cloud-portfolio-storage-2026"
 
 
 tags = {
 
-Name = "Portfolio Storage"
+Name = "Cloud Portfolio Storage"
 
-Environment = "Dev"
+Environment = "Development"
 
 }
 

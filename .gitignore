@@ -1,15 +1,19 @@
 # Terraform
+
 .terraform/
 *.tfstate
 *.tfstate.*
 crash.log
 
-# Terraform plans
+# Terraform plan files
+
 *.tfplan
 
 # OS files
+
 .DS_Store
 Thumbs.db
 
 # VS Code
+
 .vscode/
