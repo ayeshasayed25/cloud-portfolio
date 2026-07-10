@@ -116,6 +116,9 @@ Designed an architecture capable of hosting a highly available web application w
 <p>
 
 <b>Status:</b> Completed
+<p>
+<b>Repository:</b> AWS Highly Available Infrastructure
+</p>
 
 </p>
 
@@ -125,85 +128,131 @@ Designed an architecture capable of hosting a highly available web application w
 
 <section>
 
-<h2>Project 2 – Terraform AWS Production VPC</h2>
+<h2>Project 2 – Terraform AWS Production Infrastructure</h2>
 
 <h3>Project Overview</h3>
 
+<img 
+src="projects/aws-production-vpc/architecture.png"
+alt="AWS Production VPC Architecture"
+width="700">
+
 <p>
 
-Built a production-style AWS Virtual Private Cloud (VPC) using Terraform following Infrastructure as Code (IaC) principles.
+Project Code:
+
+<a href="terraform-projects/aws-production-vpc">
+
+View Terraform Code
+
+</a>
 
 </p>
 
-<h3>Infrastructure Components</h3>
+
+<p>
+Designed and deployed a production-style AWS infrastructure environment using Terraform Infrastructure as Code (IaC).
+The project demonstrates enterprise cloud networking, security, and compute provisioning practices.
+</p>
+
+
+<h3>Infrastructure Components Completed</h3>
 
 <ul>
 
-<li>Custom VPC</li>
+<li>Custom AWS VPC (10.0.0.0/16)</li>
 
 <li>Internet Gateway</li>
 
-<li>Public Subnet A</li>
+<li>Public Subnets across Availability Zones</li>
 
-<li>Public Subnet B</li>
+<li>Private Subnets across Availability Zones</li>
 
-<li>Private Subnet A</li>
+<li>Route Tables and Associations</li>
 
-<li>Private Subnet B</li>
+<li>Security Groups</li>
 
-<li>Public Route Table</li>
+<li>Bastion Host EC2 Instance</li>
 
-<li>Route Table Associations</li>
-
-<li>Terraform Variables</li>
-
-<li>Terraform Outputs</li>
+<li>Private Application EC2 Instance</li>
 
 </ul>
 
-<h3>Terraform Files</h3>
+
+<h3>Security Design</h3>
 
 <ul>
 
-<li>provider.tf</li>
+<li>Restricted SSH access through Bastion Host</li>
 
-<li>versions.tf</li>
+<li>Private EC2 instances without public IP exposure</li>
 
-<li>variables.tf</li>
+<li>Security Group based access control</li>
 
-<li>terraform.tfvars</li>
-
-<li>networking.tf</li>
-
-<li>outputs.tf</li>
-
-<li>README.md</li>
+<li>Least privilege network access</li>
 
 </ul>
+
+
+<h3>Terraform Implementation</h3>
+
+<ul>
+
+<li>Terraform AWS Provider</li>
+
+<li>Variables and Outputs</li>
+
+<li>Infrastructure as Code workflow</li>
+
+<li>Git version-controlled configuration</li>
+
+<li>Reusable project structure</li>
+
+</ul>
+
+
+<h3>AWS Services Used</h3>
+
+<ul>
+
+<li>Amazon VPC</li>
+
+<li>EC2</li>
+
+<li>Security Groups</li>
+
+<li>Internet Gateway</li>
+
+<li>Route Tables</li>
+
+</ul>
+
 
 <h3>Skills Demonstrated</h3>
 
 <ul>
 
-<li>Infrastructure as Code (IaC)</li>
+<li>AWS Cloud Infrastructure</li>
 
-<li>Terraform</li>
+<li>Terraform Automation</li>
 
-<li>AWS Networking</li>
+<li>Cloud Networking</li>
 
-<li>Git Version Control</li>
+<li>Security Best Practices</li>
 
-<li>Cloud Automation</li>
+<li>Infrastructure Deployment</li>
 
-<li>Modular Terraform Design</li>
+<li>SRE Foundation Practices</li>
 
 </ul>
 
+
 <p>
 
-<b>Status:</b> In Progress (Day 7)
+<b>Status:</b> In Progress (Day 8 Completed)
 
 </p>
+
 
 </section>
 
@@ -235,7 +284,7 @@ Built a production-style AWS Virtual Private Cloud (VPC) using Terraform followi
 
 <td>Terraform Production VPC</td>
 
-<td>In Progress</td>
+<td>Day 8 Completed</td>
 
 </tr>
 
@@ -243,7 +292,7 @@ Built a production-style AWS Virtual Private Cloud (VPC) using Terraform followi
 
 <td>Security Groups & EC2 Deployment</td>
 
-<td>Coming Soon</td>
+<td>Completed</td>
 
 </tr>
 
@@ -342,7 +391,13 @@ Built a production-style AWS Virtual Private Cloud (VPC) using Terraform followi
 <td>Coming Soon</td>
 
 </tr>
+<tr>
 
+<td>NAT Gateway & Private Subnet Internet Access</td>
+
+<td>Next</td>
+
+</tr>
 </table>
 
 </section>
@@ -379,7 +434,7 @@ https://github.com/ayeshasayed25/cloud-portfolio
 
 <p>
 
-© 2026 YOUR_NAME | Cloud Infrastructure Engineer | AWS | Terraform | DevOps | SRE
+© 2026 Ashiyana Sayed | Cloud Infrastructure Engineer | AWS | Terraform | DevOps | SRE
 
 </p>
 
