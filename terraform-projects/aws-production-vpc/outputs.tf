@@ -39,3 +39,11 @@ output "private_instance_id" {
   value = aws_instance.private_server.id
 
 }
+
+output "alb_dns_name" {
+
+  description = "Application Load Balancer DNS Name"
+
+  value = aws_lb.application_lb.dns_name
+
+}
