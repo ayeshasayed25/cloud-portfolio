@@ -3,75 +3,104 @@
 
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Projects | YOUR_NAME</title>
+<title>Projects | Cloud Infrastructure Engineer</title>
 
-    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
+
 <body>
+
 
 <header>
 
-    <h1>Cloud Infrastructure Portfolio</h1>
+<h1>Cloud Infrastructure Portfolio</h1>
 
-    <h2>Projects & Hands-on Labs</h2>
+<h2>AWS | Terraform | DevOps | SRE Projects</h2>
 
-    <nav>
 
-        <a href="index.html">Home</a>
+<nav>
 
-        <a href="about.html">About</a>
+<a href="index.html">Home</a>
 
-        <a href="projects.html">Projects</a>
+<a href="about.html">About</a>
 
-        <a href="skills.html">Skills</a>
+<a href="projects.html">Projects</a>
 
-        <a href="resume.html">Resume</a>
+<a href="skills.html">Skills</a>
 
-        <a href="contact.html">Contact</a>
+<a href="resume.html">Resume</a>
 
-    </nav>
+<a href="contact.html">Contact</a>
+
+</nav>
+
 
 </header>
 
+
+
 <section>
+
 
 <h2>Professional Projects</h2>
 
+
 <p>
-These projects demonstrate my practical experience in Cloud Infrastructure, AWS, Infrastructure as Code (Terraform), automation, networking, monitoring, and Site Reliability Engineering (SRE) practices. Every project is version-controlled using Git and documented on GitHub.
+
+These hands-on projects demonstrate practical experience in AWS Cloud Infrastructure,
+Infrastructure as Code (Terraform), networking, security, automation, and Site Reliability Engineering (SRE) practices.
+
+All projects are developed using Git, GitHub, and documented following professional cloud engineering practices.
+
 </p>
+
 
 </section>
 
+
 <hr>
+
+
 
 <section>
 
+
 <h2>Project 1 – AWS Highly Available Web Application Infrastructure</h2>
+
 
 <h3>Project Overview</h3>
 
+
 <p>
 
-Designed a production-style AWS cloud architecture focused on availability, scalability, security, and reliability.
+Designed a production-style AWS cloud architecture focused on high availability,
+scalability, security, and reliability.
 
 </p>
+
+
 
 <h3>Business Scenario</h3>
 
+
 <p>
 
-Designed an architecture capable of hosting a highly available web application with multiple Availability Zones, secure networking, and monitoring.
+Designed an enterprise application hosting environment using AWS best practices.
+The architecture supports highly available workloads across multiple Availability Zones
+with secure networking, monitoring, and scalable compute resources.
 
 </p>
 
+
+
 <h3>AWS Services Used</h3>
+
 
 <ul>
 
@@ -81,7 +110,7 @@ Designed an architecture capable of hosting a highly available web application w
 
 <li>Application Load Balancer</li>
 
-<li>Auto Scaling</li>
+<li>Auto Scaling Groups</li>
 
 <li>Amazon RDS</li>
 
@@ -93,82 +122,83 @@ Designed an architecture capable of hosting a highly available web application w
 
 </ul>
 
+
+
 <h3>Skills Demonstrated</h3>
+
 
 <ul>
 
-<li>Cloud Architecture Design</li>
+<li>AWS Cloud Architecture Design</li>
 
-<li>High Availability</li>
+<li>High Availability Design</li>
 
-<li>Reliability Engineering</li>
+<li>Scalable Infrastructure</li>
 
 <li>Security Best Practices</li>
 
-<li>AWS Networking</li>
-
-<li>Monitoring</li>
+<li>Monitoring Strategy</li>
 
 <li>Infrastructure Documentation</li>
 
 </ul>
 
+
 <p>
 
-<b>Status:</b> Completed
-<p>
-<b>Repository:</b> AWS Highly Available Infrastructure
-</p>
+<b>Status:</b> Architecture Design Completed
 
 </p>
+
 
 </section>
 
+
+
 <hr>
+
+
 
 <section>
 
+
 <h2>Project 2 – Terraform AWS Production Infrastructure</h2>
+
 
 <h3>Project Overview</h3>
 
-<img 
-src="projects/aws-production-vpc/architecture.png"
-alt="AWS Production VPC Architecture"
-width="700">
 
 <p>
 
-Project Code:
+Designed and deployed a production-style AWS infrastructure environment using Terraform
+Infrastructure as Code (IaC).
 
-<a href="terraform-projects/aws-production-vpc">
-
-View Terraform Code
-
-</a>
+The project demonstrates enterprise cloud networking, security controls,
+compute deployment, and private workload management.
 
 </p>
 
-
-<p>
-Designed and deployed a production-style AWS infrastructure environment using Terraform Infrastructure as Code (IaC).
-The project demonstrates enterprise cloud networking, security, and compute provisioning practices.
-</p>
 
 
 <h3>Infrastructure Components Completed</h3>
 
+
 <ul>
 
-<li>Custom AWS VPC (10.0.0.0/16)</li>
 
-<li>Internet Gateway</li>
+<li>Custom AWS VPC (10.0.0.0/16)</li>
 
 <li>Public Subnets across Availability Zones</li>
 
 <li>Private Subnets across Availability Zones</li>
 
-<li>Route Tables and Associations</li>
+<li>Internet Gateway</li>
+
+<li>Public Route Tables</li>
+
+<li>Private Route Tables</li>
+
+<li>Route Table Associations</li>
 
 <li>Security Groups</li>
 
@@ -176,16 +206,22 @@ The project demonstrates enterprise cloud networking, security, and compute prov
 
 <li>Private Application EC2 Instance</li>
 
+<li>Elastic IP</li>
+
 <li>NAT Gateway</li>
 
 <li>Private Subnet Internet Access</li>
 
+
 </ul>
+
 
 
 <h3>Security Design</h3>
 
+
 <ul>
+
 
 <li>Restricted SSH access through Bastion Host</li>
 
@@ -193,262 +229,383 @@ The project demonstrates enterprise cloud networking, security, and compute prov
 
 <li>Security Group based access control</li>
 
-<li>Least privilege network access</li>
+<li>Least privilege networking approach</li>
+
+<li>Secure administration model</li>
+
 
 </ul>
+
 
 
 <h3>Terraform Implementation</h3>
 
+
 <ul>
 
-<li>Terraform AWS Provider</li>
 
-<li>Variables and Outputs</li>
+<li>AWS Terraform Provider</li>
+
+<li>Terraform Variables</li>
+
+<li>Terraform Outputs</li>
 
 <li>Infrastructure as Code workflow</li>
 
-<li>Git version-controlled configuration</li>
+<li>Git Version Control</li>
 
-<li>Reusable project structure</li>
+<li>Reusable Terraform project structure</li>
+
+<li>Environment configuration management</li>
+
 
 </ul>
+
 
 
 <h3>AWS Services Used</h3>
 
+
 <ul>
+
 
 <li>Amazon VPC</li>
 
-<li>EC2</li>
+<li>Amazon EC2</li>
 
-<li>Security Groups</li>
+<li>Elastic IP</li>
+
+<li>NAT Gateway</li>
 
 <li>Internet Gateway</li>
 
+<li>Security Groups</li>
+
 <li>Route Tables</li>
+
 
 </ul>
 
 
+
+<h3>Architecture Flow</h3>
+
+
+<pre>
+
+Internet
+
+   |
+
+Internet Gateway
+
+   |
+
+Public Subnet
+
+   |
+
+Bastion Host
+
+   |
+
+Private Subnet
+
+   |
+
+Private Application Server
+
+
+Private EC2
+
+   |
+
+Private Route Table
+
+   |
+
+NAT Gateway
+
+   |
+
+Internet Access
+
+
+</pre>
+
+
+
+
 <h3>Skills Demonstrated</h3>
+
 
 <ul>
 
-<li>AWS Cloud Infrastructure</li>
+
+<li>AWS Infrastructure Engineering</li>
 
 <li>Terraform Automation</li>
 
 <li>Cloud Networking</li>
 
-<li>Security Best Practices</li>
+<li>Secure Architecture Design</li>
 
-<li>Infrastructure Deployment</li>
+<li>Linux Server Deployment</li>
 
 <li>SRE Foundation Practices</li>
+
+<li>Infrastructure Troubleshooting</li>
+
 
 </ul>
 
 
+
 <p>
+
+<b>Status:</b> Day 9 Completed
 
 </p>
 
 
+
 </section>
+
+
 
 <hr>
 
+
+
 <section>
 
-<h2>Current Learning Roadmap</h2>
+
+<h2>Project Development Roadmap</h2>
+
+
 
 <table border="1" cellpadding="10">
 
+
 <tr>
 
-<th>Project</th>
+<th>Project Phase</th>
 
 <th>Status</th>
 
 </tr>
 
-<tr>
 
-<td>AWS Highly Available Infrastructure</td>
-
-<td>Completed</td>
-
-</tr>
 
 <tr>
 
-<td>Terraform Production VPC</td>
+<td>AWS VPC Creation using Terraform</td>
 
-<td>Day 8 Completed</td>
+<td>Completed - Day 6</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>Security Groups & EC2 Deployment</td>
+<td>Public and Private Networking</td>
 
-<td>Completed</td>
+<td>Completed - Day 7</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>NAT Gateway</td>
+<td>Security Groups and EC2 Deployment</td>
 
-<li>NAT Gateway</li>
-
-<li>Private Subnet Internet Access</li>
-
-<li>Secure Hybrid-style Network Architecture</li>
-<b>Status:</b> Day 9 Completed
+<td>Completed - Day 8</td>
 
 </tr>
+
+
+
+<tr>
+
+<td>NAT Gateway and Private Internet Access</td>
+
+<td>Completed - Day 9</td>
+
+</tr>
+
+
 
 <tr>
 
 <td>Application Load Balancer</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
 <td>Auto Scaling Group</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>RDS Deployment</td>
+<td>RDS Database Integration</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
 <td>CloudWatch Monitoring</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>Docker</td>
+<td>Docker Container Deployment</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>Kubernetes</td>
+<td>Kubernetes Deployment</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>GitHub Actions CI/CD</td>
+<td>GitHub Actions CI/CD Pipeline</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
 <td>Jenkins CI/CD Pipeline</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
-<td>Prometheus & Grafana Monitoring</td>
+<td>Prometheus and Grafana Monitoring</td>
 
-<td>Coming Soon</td>
-
-</tr>
-
-<tr>
-
-<td>Linux Automation Scripts</td>
-
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
+
+
 
 <tr>
 
 <td>AWS Cost Optimization</td>
 
-<td>Coming Soon</td>
+<td>Upcoming</td>
 
 </tr>
-<tr>
 
-<td>NAT Gateway & Private Subnet Internet Access</td>
 
-<td>Next</td>
 
-</tr>
 </table>
 
+
 </section>
+
+
 
 <hr>
 
+
+
 <section>
+
 
 <h2>GitHub Repository</h2>
 
+
 <p>
 
-All projects are developed using Git and GitHub with proper version control, documentation, and Infrastructure as Code best practices.
+
+All infrastructure projects are maintained using Git and GitHub with proper documentation,
+version control, and Infrastructure as Code best practices.
+
 
 </p>
 
+
 <p>
 
-GitHub Repository:
+
+Repository:
 
 <br><br>
 
+
 <a href="https://github.com/ayeshasayed25/cloud-portfolio" target="_blank">
 
-https://github.com/ayeshasayed25/cloud-portfolio
+github.com/ayeshasayed25/cloud-portfolio
 
 </a>
 
+
 </p>
+
+
 
 </section>
 
+
+
+
 <footer>
+
 
 <p>
 
-© 2026 Ashiyana Sayed | Cloud Infrastructure Engineer | AWS | Terraform | DevOps | SRE
+© 2026 | Cloud Infrastructure Engineer | AWS | Terraform | DevOps | SRE
 
 </p>
 
+
 </footer>
+
+
 
 <script src="js/script.js"></script>
 
+
 </body>
+
 
 </html>
